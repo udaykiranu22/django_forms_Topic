@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 from app.forms import *
+from app.models import *
 
 
 def contact(request):
